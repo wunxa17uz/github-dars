@@ -1,0 +1,203 @@
+/* 
+
+    𝗚𝗶𝘁 𝘃𝗮 𝗚𝗶𝘁𝗛𝘂𝗯 𝗯𝗶𝗹𝗮𝗻 𝗶𝘀𝗵𝗹𝗮𝘀𝗵
+
+
+- GIT 
+
+    -   𝐆𝐢𝐭 𝐧𝐢𝐦𝐚?  𝐕𝐞𝐫𝐬𝐢𝐨𝐧 𝐂𝐨𝐧𝐭𝐫𝐨𝐥 𝐒𝐲𝐬𝐭𝐞𝐦 (𝐕𝐂𝐒) - 𝐕𝐞𝐫𝐬𝐢𝐲𝐚 𝐁𝐨𝐬𝐡𝐪𝐚𝐫𝐢𝐬𝐡 𝐓𝐢𝐳𝐢𝐦𝐢
+
+
+    1. index.html
+    2. about.html
+    3. services.html
+
+
+
+
+
+
+    -   𝑮𝒊𝒕 𝒂𝒇𝒛𝒂𝒍𝒍𝒊𝒌𝒍𝒂𝒓𝒊:
+        -   kod versiyasini nazorat qilish;
+        -   qanday o`zgartirishlar kiritilganligi haqida ma`lumot beradi.
+        -   o`zgartirish kiritilgan kodga kim tomonidan va qachon va aynan qaysi vaqtda kiritilganligi haqida ma`lumot beradi;
+        -   loyihalar bilan ishlashda individual yoki jamoaviy bo`lib ishlash imkoniyatini yaratadi;
+        -   git for marketing/product management/designers/custom support/human resourses/...
+
+
+
+
+
+
+    -   𝑮𝒊𝒕 𝒗𝒂 𝑮𝒊𝒕𝑯𝒖𝒃 𝒇𝒂𝒓𝒒𝒊
+        -   Git - local - Version Control System
+        -   GitHub - online - Version Control System Hosting Servise (Xizmati)
+
+
+
+
+
+
+    -   𝑮𝒊𝒕 𝒅𝒂𝒔𝒕𝒖𝒓𝒊𝒏𝒊 𝒐`𝒓𝒏𝒂𝒕𝒊𝒔𝒉
+        -   Windows uchun - Git Bash
+        -   MacOS uchun - Terminal, iTerm, Kitty
+
+
+
+
+
+
+    -   𝑮𝒊𝒕𝒏𝒊 𝒔𝒐𝒛𝒍𝒂𝒃 𝒐𝒍𝒊𝒔𝒉 𝒚𝒂`𝒏𝒊 (𝒏𝒂𝒔𝒕𝒓𝒐𝒚𝒌𝒂 𝒒𝒊𝒍𝒊𝒔𝒉)
+        -   git config...  - gitni sozlab olish uchun ishlatiladigan buyruq.
+        -   git config --list  - barcha sozlamalarni ko`rsatish 
+        -   git config user.name   - git foydalanuvchining ismi 
+        -   git config user.email  - git foydalanuvchining emaili 
+        -   Agar bularning hech qaysi biri sozlanmagan bo`lsa va endigina foydalanishni boshlagan bo`lsangiz. Unda uni sozlab olamiz. 
+        -   git config --global user.name "username"
+        -   git config --global user.email "email"
+
+
+    -   𝑮𝒊𝒕𝒅𝒂 𝒚𝒂𝒏𝒈𝒊 𝒍𝒐𝒚𝒊𝒉𝒂 𝒚𝒂𝒓𝒂𝒕𝒊𝒔𝒉 (𝑮𝒊𝒕 𝒓𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚)
+        -   repository ombor/loyiha
+        -   git init  - yangi git loyihani boshlash uchun ishlatiladi. Faqat 1 marta ishlating loyiha uchun.
+        -   git status  - o`zgarishga uchragan holatni tekshirish uchun.
+        -   touch index.html  - touch buyrug`i bilan biz hohlagan fayl formatini yaratishimiz mumkin ekan, misol uchun mp.3, txt, h.k
+        -   rm index.html - rm buyrug`i bilan biz hohlagan fayl formatini o`chirib tashlay olamiz.
+        
+
+    git add...  - loyihadagi yangi fayllar, o`zgarishlar va o`chirilishlarni xotiraga olish uchun navbatga qo`yiladi.
+        -   git add faylnomi
+        -   git add .
+
+
+    git commit... - navbatda turgan fayllarni butunlay saqlash uchun va xotiraga saqlanayotganda xabar bilan qoldirishimiz kerak.
+        -   git commit -m "xabaringiz" 
+        -   git commit --amend -m "xabaringiz" - navbatsiz butunlay saqlash.
+        -   git log  - shu paytgacha berilgan commitlar tarixi/ro`yhati, ya`ni kim qaysi vaqtda faylga o`zgartirish kiritganligini ko`rsatadi.
+
+        
+    
+
+    
+
+
+    -   𝑭𝒂𝒚𝒍 𝒐`𝒛𝒈𝒂𝒓𝒊𝒔𝒉𝒍𝒂𝒓𝒊𝒏𝒊 𝒃𝒆𝒌𝒐𝒓 𝒒𝒊𝒍𝒊𝒔𝒉.
+        -   git checkout --faylnomi
+        -   git checkout .
+        -   git checkout maxsuskod - loyihamizning xohlagan versiyasida sayr qilishimiz mumkin.
+        -   git checkout master - ayni oxirigi ishlayotgan versiya.
+
+
+
+
+
+
+    -   𝒈𝒊𝒕 𝒂𝒅𝒅 𝒅𝒂𝒈𝒊 𝒏𝒂𝒗𝒃𝒂𝒕𝒏𝒊 𝒃𝒆𝒌𝒐𝒓 𝒒𝒊𝒍𝒊𝒔𝒉
+        -   git reset faylnomi
+        -   git reset .
+
+
+
+
+
+
+    -   𝑩𝒓𝒂𝒏𝒄𝒉/𝑴𝒆𝒓𝒈𝒆
+        -   branch - filial
+    -   𝑩𝒓𝒂𝒏𝒄𝒉 𝒚𝒂𝒓𝒂𝒕𝒊𝒔𝒉: 
+        -   git branch - hozirgi mavjud branchlar ro`yhati.
+        -   git branch nom - yangi branch yaratish
+        -   git checkout nom - berilgan branchga o`tish
+        -   git merge branchnomi - berilgan branchni mavjud branchga yuklab olish
+
+
+
+
+
+
+    -   𝑳𝒐𝒄𝒂𝒍 𝒕𝒂𝒓𝒊𝒛𝒅𝒂 𝒐`𝒛𝒈𝒂𝒓𝒕𝒊𝒓𝒊𝒍𝒈𝒂𝒏 𝒌𝒐𝒅𝒍𝒂𝒓𝒏𝒊 𝑮𝒊𝒕𝑯𝒖𝒃 𝒑𝒓𝒐𝒇𝒊𝒍𝒆𝒅𝒂 𝒉𝒂𝒎 𝒐`𝒛𝒈𝒂𝒓𝒕𝒊𝒓𝒊𝒔𝒉
+        -   git push 
+
+
+
+
+
+
+    -   𝑩𝒊𝒓𝒐𝒏𝒊 𝑮𝒊𝒕𝑯𝒖𝒃 𝒓𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒊𝒚𝒂𝒔𝒊𝒅𝒂𝒏 𝒄𝒍𝒐𝒏𝒆 𝒐𝒍𝒊𝒔𝒉
+        -   
+
+
+
+
+
+    -   𝑮𝒍𝒐𝒃𝒂𝒍 𝒍𝒐𝒚𝒊𝒉𝒂𝒏𝒊 𝒍𝒐𝒄𝒂𝒍𝒈𝒂 𝒄𝒍𝒐𝒏𝒆 𝒒𝒊𝒍𝒊𝒔𝒉
+        -   git clone https://github
+
+
+
+
+    -   𝑮𝒊𝒕𝑯𝒖𝒃 𝒓𝒆𝒑𝒐𝒔𝒊𝒕𝒐𝒓𝒚𝒂𝒏𝒊 𝒐`𝒛𝒊𝒅𝒂 𝒂𝒅𝒅 𝒇𝒊𝒍𝒆 𝒒𝒊𝒍𝒊𝒃 𝒖𝒏𝒊 𝒍𝒐𝒄𝒂𝒍𝒅𝒂 𝒐`𝒛𝒈𝒂𝒓𝒊𝒔𝒉𝒊
+        -   git pull
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
